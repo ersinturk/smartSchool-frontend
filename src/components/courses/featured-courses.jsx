@@ -1,13 +1,13 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import CourseCard from "./course-card";
 import Courses from "./courses";
 import "./featured-courses.scss";
+import SectionTitle from "../common/section-title";
+
 
 const FeaturedCourses = () => {
   return (
     <div className="featured-courses">
-        <h2>Featured Courses</h2>
+        <SectionTitle> Featured Courses</SectionTitle>
         <Courses featured={true}/>
     </div>
   );

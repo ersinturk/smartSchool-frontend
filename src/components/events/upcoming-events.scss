@@ -1,0 +1,21 @@
+@use "../../styles/mixins" as m;
+
+.upcoming-events {
+  .section-title {
+    margin: 0;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .title {
+    @include m.flex($ai: center);
+    margin-bottom: 50px;
+
+    svg {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  }
+}

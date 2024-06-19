@@ -1,7 +1,7 @@
 @use "../../styles/variables" as v;
 @use "../../styles/mixins" as m;
 
-.course-card {
+.event-card {
   height: 100%;
 
   img{
@@ -14,12 +14,10 @@
     font-size: 1.2rem;
   }
 
-  .card-footer {
+  .card-subtitle {
     @include m.flex();
-    background: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-color: v.$color2-op-10;
   }
 
   svg{
